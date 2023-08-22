@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- MetaTags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travelling and discovering is what we do">
+    <meta name="keywords" content="travel, vacation, world, countries, tour, tourist">
+    <!-- Font & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/utilities.css">
+    <link rel="stylesheet" media="screen and (max-width: 786px)" href="./style/mobile.css">
+    <link rel="stylesheet" href="./style/darkmode.css">
+    <title>MetaTravel | Welcome</title>
+</head>
+<body>
+    <header>
+        <div id="header-btn">
+            <div class="login"><button id="show-login" class="login-btn dark-btn">Login</button></div>
+            <div class="toggle">
+                <i class="far fa-sun"></i>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#tours" class="nav-link">Tours</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="text">
+            <h1><span>Meta</span>Travel Agency</h1>
+            <p>Travel all around the world with us!</p>
+            <div class="form-container">
+                <input type="text" placeholder="Search Our Tours">
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="icons">
+                <div class="icon-box">
+                    <i class='bx bxs-plane-alt'></i>
+                </div>
+
+                <div class="icon-box">
+                    <i class='bx bxs-train' ></i>
+                </div>
+
+                <div class="icon-box">
+                    <i class='bx bxs-bus' ></i>
+                </div>
+
+                <div class="icon-box">
+                    <i class='bx bxs-ship' ></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup -->
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Login</h2>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password">
+            </div>
+            <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+                <button>Login</button>
+            </div>
+            <div class="form-element">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- City Tours -->
+    <section id="tours">
+        <h2>Our City Tours</h2>
+        <div class="tour-container"> 
+            <div class="tour-item">
+                <img src="./images/city tours/london.JPG" alt="">
+                <div class="tour-text">
+                    <h4>7 Days in London</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit alias blanditiis ipsam! Quidem, eveniet architecto.</p>
+                </div>
+
+                <div class="price"> 
+                    <p class="price-dollar">5300$</p>
+                    <div class="star">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <img src="./images/city tours/munich.JPG" alt="">
+                <div class="tour-text">
+                    <h4>4 Days in Munich</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit alias blanditiis ipsam! Quidem, eveniet architecto.</p>
+                </div>
+
+                <div class="price"> 
+                    <p class="price-dollar">6420$</p>
+                    <div class="star">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <img src="./images/city tours/newyork.JPG" alt="">
+                <div class="tour-text">
+                    <h4>5 Days in New York</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit alias blanditiis ipsam! Quidem, eveniet architecto.</p>
+                </div>
+
+                <div class="price"> 
+                    <p class="price-dollar">3300$</p>
+                    <div class="star">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <img src="./images/city tours/paris.JPG" alt="">
+                <div class="tour-text">
+                    <h4>6 Days in Paris</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit alias blanditiis ipsam! Quidem, eveniet architecto.</p>
+                </div>
+
+                <div class="price"> 
+                    <p class="price-dollar">4250$</p>
+                    <div class="star">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Camping -->
+    <section id="blog">
+        <h2>Read Our Blog</h2>
+        <div class="blog-container"> 
+              <!-- 1st -->
+            <div class="post">
+                <img src="./images/blog/1.JPG" alt="">
+                <div class="post-text">
+                    <h4>Antractica For Real</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/2.JPG" alt="">
+                <div class="post-text">
+                    <h4>Camping in Jungal</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/3.JPG" alt="">
+                <div class="post-text">
+                    <h4>Old Historic Places</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <!-- 2nd -->
+            <div class="post">
+                <img src="./images/blog/4.JPG" alt="">
+                <div class="post-text">
+                    <h4>Top Places To Go</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/5.JPG" alt="">
+                <div class="post-text">
+                    <h4>Wandering Alone</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/6.JPG" alt="">
+                <div class="post-text">
+                    <h4>Sand Camping</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <!-- 3rd -->
+            <div class="post">
+                <img src="./images/blog/7.JPG" alt="">
+                <div class="post-text">
+                    <h4>Photographing in Nature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/8.JPG" alt="">
+                <div class="post-text">
+                    <h4>Thomas Made It</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/9.JPG" alt="">
+                <div class="post-text">
+                    <h4>Man and Wife Travelling</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <!-- 4th -->
+            <div class="post">
+                <img src="./images/blog/10.JPG" alt="">
+                <div class="post-text">
+                    <h4>Thomas and Rexx</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/11.JPG" alt="">
+                <div class="post-text">
+                    <h4>Wandering Tour</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/blog/12.JPG" alt="">
+                <div class="post-text">
+                    <h4>Watch The Sunset</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, hic corporis est rem exercitationem consequatur labore iste aliquam accusantium provident.</p>
+                    <a href="#" class="post-btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="message-container">
+                <div class="form-text">
+                    <h5>Contact Us Directly</h5>
+                    <p>Lorem ipsum dolor, sit amet Deleniti, iusto!</p>
+                </div>
+
+                <div class="form-input">
+                    <form action="">
+                        <label for="people">Select who you want to Contact</label> <br>
+                        <select name="people" id="people">
+                            <option value="">-</option>
+                            <option value="owner">Adrian Filip (Owner)</option>
+                            <option value="manager">Ada Jackson (Manager)</option>
+                            <option value="writer">Jane Doe (Blog Writer)</option>
+                            <option value="customer">Alexa Martinez (Customer Services)</option>
+                            <option value="support">Sam Foreman (Support)</option>
+                            <option value="designer">Alan Tenner (WebDesign)</option>
+                        </select>
+
+                        <input type="email" required placeholder="Enter your email">
+                        <input type="text" placeholder="Subject">
+
+                        <textarea name="textarea" id="textarea" cols="60" rows="10" placeholder="Write your message here ..."></textarea>
+                        <button type="submit" class="contact-btn">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+
+            <div class="people-container">
+                <div class="person">
+                    <img src="./images/people/owner.JPG" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Adrian Filip</h4>
+                        <p class="person-job">Owner</p>
+                        <p class="person-email">adrian20@travel.com</p>
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img src="./images/people/manager.JPG" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Ada Jackson</h4>
+                        <p class="person-job">Manager</p>
+                        <p class="person-email">ada-jack@travel.com</p>
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img src="./images/people/blogwriter.jpg" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Jane Doe</h4>
+                        <p class="person-job">Blog Writer</p>
+                        <p class="person-email">jane2023@travel.com</p>
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img src="./images/people/supervisor.JPG" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Alexa Martinez</h4>
+                        <p class="person-job">Customer Services</p>
+                        <p class="person-email">alex19@travel.com</p>
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img src="./images/people/support.JPG" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Sam Foreman</h4>
+                        <p class="person-job">Support</p>
+                        <p class="person-email">samifor@travel.com</p>
+                    </div>
+                </div>
+
+                <div class="person">
+                    <img src="./images/people/webdesign.jpg" alt="">
+                    <div class="info">
+                        <h4 class="person-name">Alan Tenner</h4>
+                        <p class="person-job">WebDesign</p>
+                        <p class="person-email">alanw@travel.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT US -->
+    <section id="about">
+        <h2 class="about-header">About Us & Our Goals</h2>
+        <div class="about-container">
+            <div class="about-post">
+                <h2>Why us?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut esse totam amet error earum qui ex dignissimos? Quaerat, vitae quis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi necessitatibus, unde ipsum non tempore dolore doloremque nam obcaecati. </p>
+                <p>Tel: +001 254 2546 265</p>
+                <p>Fax: +001 254 3546 465</p>
+                
+            </div>
+            <div class="about-post">
+                <h2>Our Aims</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut esse totam amet error earum qui ex dignissimos? Quaerat, vitae quis.</p>
+                <li><i class='bx bx-chevron-right'></i>Best Accomodation</li>
+                <li><i class='bx bx-chevron-right'></i>Comfortable Travelling</li>
+                <li><i class='bx bx-chevron-right'></i>Help to Finance</li>
+                <li><i class='bx bx-chevron-right'></i>New Experiences</li>
+            </div>
+            <div class="about-post">
+                <h2>Our Experiences</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut esse totam amet error earum qui ex dignissimos? Quaerat, vitae quis.</p>
+                <li><i class='bx bx-chevron-right'></i>Best Accomodation</li>
+                <li><i class='bx bx-chevron-right'></i>Comfortable Travelling</li>
+                <li><i class='bx bx-chevron-right'></i>Help to Finance</li>
+                <li><i class='bx bx-chevron-right'></i>New Experiences</li>
+            </div>
+            </div>
+
+            <div class="know-more">If you want to know more about us and our services <a href="#">Click here!</a></div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="fcolumn first-column">
+                <h4>Branches</h4>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>The US</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Germany</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>France</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Canada</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Spain</a></li>
+            </div>
+
+            <div class="fcolumn second-column">
+                <h4>Links</h4>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Home</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Tours</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Contact</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>About</a></li>
+            </div>
+
+            <div class="fcolumn third-column">
+                <h4>Tours & Campings</h4>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Camping</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>City Tours</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Sea Travels</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Sport Tours</a></li>
+                <li><a href="#"><i class='bx bx-chevron-right'></i>Adventure</a></li>
+            </div>
+
+            <div class="fcolumn fourth-column">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-item"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="social-item"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="social-item"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#" class="social-item"><i class='bx bxl-telegram' ></i></a>
+                    <a href="#" class="social-item"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="#" class="social-item"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+
+                <div class="our-services">
+                    <h4>Our Services</h4>
+                    <a href="#"><i class='bx bxs-briefcase-alt'></i></a>
+                    <a href="#"><i class='bx bxs-hotel' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxs-bank' ></i></a>
+                    <a href="#"><i class='bx bx-broadcast' ></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript File -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

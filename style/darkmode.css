@@ -1,0 +1,125 @@
+:root {
+    --gold: #f1be48;
+    --blue: #0073CF;
+    --lime: #aca39a;
+    --gr-one: #1c05b3;
+    --gr-two: #0437f2;
+    --bg-color: #eee;
+    --text-color: #333;
+}
+
+
+/* BODY */
+body.dark {
+    background-color: #202020;
+}
+
+/* STICKY HEADER */
+
+body.dark header.sticky {
+    background-color: #141414;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+body.dark header.sticky .nav-link {
+    color: #eee;
+}
+
+body.dark header.sticky .nav-link:hover {
+    color: var(--gold);
+}
+
+
+
+body.dark .line {
+    background-color: #fff;
+}
+
+
+/* TOURS */
+body.dark #tours {
+    color: #eee;
+}
+
+
+/* BLOG */
+body.dark #blog {
+    color: #eee;
+}
+
+body.dark .blog-container .post {
+    background-color: #333;
+}
+
+body.dark .blog-container h4 {
+    color: var(--gold);
+}
+
+body.dark #contact {
+    color: #eee;
+}
+
+body.dark .contact-container {
+    background-color: #333;
+}
+
+body.dark .message-container {
+    background-color: #003561;
+}
+
+body.dark select {
+    background-color: #292929;
+    color: #eee;
+}
+
+body.dark .form-input input {
+    background-color: #292929;
+    color: #eee;
+}
+
+body.dark .form-input textarea {
+    background-color: #292929;
+    color: #eee;
+}
+
+/* ABOUT */
+
+
+body.dark #about {
+    color: #eee;
+}
+
+body.dark .about-post {
+    background: linear-gradient(#0c0346,#081d68 );
+}
+
+
+
+/* FOOTER */
+body.dark .footer-container {
+    background-color: #131313;
+}
+
+body.dark .fcolumn h4 {
+    color: var(--gold);
+}
+
+body.dark .first-column a {
+    color: #eee;
+}
+
+body.dark .second-column a {
+    color: #eee;
+}
+
+body.dark .third-column a {
+    color: #eee;
+}
+
+body.dark .fourth-column a i {
+   color: #eee;
+}
+
+body.dark .fourth-column a i:hover {
+    color: var(--gold);
+}

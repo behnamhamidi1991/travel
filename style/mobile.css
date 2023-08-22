@@ -157,7 +157,26 @@ header {
 }
 
 @media (max-width: 380px) {
+
+    #blog {
+        width: 350px;
+    }
     .blog-container {
-        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 308px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 5px;
     }
 }

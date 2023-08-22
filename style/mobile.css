@@ -130,6 +130,10 @@ header {
         padding: 14px;
     }
 
+    .blog-container {
+        max-width: 400px;
+    }
+
 }
 
 
@@ -145,5 +149,15 @@ header {
 
     #tour h2, #blog h2, #contact h2, #about h2 {
         font-size: 2rem;
+    }
+
+    .blog-container {
+        width: 365px;
+    }
+}
+
+@media (max-width: 380px) {
+    .blog-container {
+        width: 320px;
     }
 }

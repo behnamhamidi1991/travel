@@ -64,7 +64,7 @@ body.dark .contact-container {
 }
 
 body.dark .message-container {
-    background-color: #003561;
+    background-color: rgb(13, 13, 24);
 }
 
 body.dark select {

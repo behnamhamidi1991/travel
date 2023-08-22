@@ -98,6 +98,8 @@ header {
     font-size: 3rem;
 }
 
+
+
 @media (max-width: 580px) {
 
     /* HOME */
@@ -134,6 +136,8 @@ header {
         max-width: 400px;
     }
 
+    
+
 }
 
 
@@ -154,6 +158,10 @@ header {
     .blog-container {
         width: 365px;
     }
+
+    .popup {
+        width: 300px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -168,6 +176,10 @@ header {
         align-items: center;
         width: 100%;
     }
+
+    .popup {
+        width: 200px;
+    }
 }
 
 @media (max-width: 308px) {
@@ -178,5 +190,9 @@ header {
         align-items: center;
         width: 100%;
         padding: 0 5px;
+    }
+
+    .popup {
+        width: 200px;
     }
 }

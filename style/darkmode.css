@@ -55,6 +55,10 @@ body.dark .blog-container h4 {
     color: var(--gold);
 }
 
+body.dark .blog-container a {
+    color: #eee;
+}
+
 body.dark #contact {
     color: #eee;
 }

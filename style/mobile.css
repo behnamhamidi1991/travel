@@ -93,3 +93,42 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+#home .text h1 {
+    font-size: 3rem;
+}
+
+@media (max-width: 580px) {
+
+    /* HOME */
+    #home .text {
+        padding: 0 20px;
+    }
+
+    #home .text h1 {
+        font-size: 2.5rem;
+    }
+
+    /* HOME TITLE */
+    #home .text h1 {
+        font-size: 2rem;
+    }
+
+    /* SEARCH BAR */
+    .form-container input {
+        width: 100%;
+    }
+
+    /* ICONS */
+    .icons {
+        gap: 15px;
+
+    }
+    
+    .icons i {
+        font-size: 2.8rem;
+        padding: 14px;
+    }
+
+
+}

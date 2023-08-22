@@ -160,7 +160,7 @@ header {
     }
 
     .popup {
-        width: 300px;
+        width: 90%;
     }
 }
 
@@ -178,7 +178,7 @@ header {
     }
 
     .popup {
-        width: 200px;
+        width: 90%;
     }
 }
 
@@ -193,6 +193,6 @@ header {
     }
 
     .popup {
-        width: 200px;
+        width: 90%;
     }
 }
